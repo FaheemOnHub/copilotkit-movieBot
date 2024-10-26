@@ -4,7 +4,7 @@ import "./index.css";
 import App from "./App.jsx";
 import { CopilotKit } from "@copilotkit/react-core";
 createRoot(document.getElementById("root")).render(
-  <CopilotKit runtimeUrl="http://localhost:4000/copilotkit">
+  <CopilotKit runtimeUrl="https://copilotkit-moviebot.onrender.com/copilotkit">
     <App />
   </CopilotKit>
 );

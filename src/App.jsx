@@ -27,7 +27,6 @@ import { Label } from "@/components/ui/label";
 import { Button } from "@/components/ui/button";
 
 // Backend API service
-const API_BASE_URL = "http://localhost:5000";
 
 const MovieRecommender = () => {
   const [selectedGenre, setSelectedGenre] = useState("");
